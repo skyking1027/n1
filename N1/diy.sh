@@ -16,7 +16,7 @@ git clone  https://github.com/linkease/nas-packages/tree/master/network/services
 # 加入OpenClash核心
 #chmod -R a+x $GITHUB_WORKSPACE/preset-clash-core.sh
 #$GITHUB_WORKSPACE/N1/preset-clash-core.sh
-
+#sed -i '$a src-git kiddin9_openwrt_packages https://github.com/kiddin9/kwrt-packages.git' feeds.conf.default
 echo "
 # 插件
 CONFIG_PACKAGE_luci-app-amlogic=y
