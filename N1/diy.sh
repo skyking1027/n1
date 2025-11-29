@@ -6,8 +6,8 @@
 
 # Add packages
 git clone --depth=1 https://github.com/ophub/luci-app-amlogic package/amlogic
-git clone  https://github.com/linkease/nas-packages-luci/tree/main/luci/luci-app-linkease.git package/luci-app-linkease
-git clone  https://github.com/linkease/nas-packages/tree/master/network/services/linkease.git package/linkease
+git clone  https://github.com/linkease/nas-packages-luci/luci/luci-app-linkease.git package/luci-app-linkease
+git clone  https://github.com/linkease/nas-packages/network/services/linkease.git package/linkease
 #git clone --depth=1 https://github.com/kiddin9/kwrt-packages.git package/luci-app-linkease
 #git clone --depth=1 https://github.com/kiddin9/kwrt-packages.git package/linkease
 
