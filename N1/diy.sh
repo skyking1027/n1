@@ -6,11 +6,12 @@
 
 # Add packages
 git clone --depth=1 https://github.com/ophub/luci-app-amlogic package/amlogic
-#git clone  https://github.com/linkease/luci-app-linkease package/linkease
+git clone  https://github.com/linkease/nas-packages-luci/tree/main/luci/luci-app-linkease package/luci-app-linkease
+git clone  https://github.com/linkease/nas-packages/tree/master/network/services/linkease package/linkease
 git clone --depth=1 https://github.com/kiddin9/kwrt-packages package/luci-app-linkease
-git clone --depth=1 https://github.com/kiddin9/kwrt-packages package/linkease
+#git clone --depth=1 https://github.com/kiddin9/kwrt-packages package/linkease
 
-git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-nikki package/luci-app-nikki
+#git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-nikki package/luci-app-nikki
 
 # 加入OpenClash核心
 #chmod -R a+x $GITHUB_WORKSPACE/preset-clash-core.sh
