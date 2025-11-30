@@ -11,12 +11,13 @@ git clone  https://github.com/linkease/nas-packages.git network/services/linkeas
 #git clone --depth=1 https://github.com/kiddin9/kwrt-packages.git package/luci-app-linkease
 #git clone --depth=1 https://github.com/kiddin9/kwrt-packages.git package/linkease
 
-#git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-nikki package/luci-app-nikki
+git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-nikki package/luci-app-nikki
 
 # 加入OpenClash核心
 #chmod -R a+x $GITHUB_WORKSPACE/preset-clash-core.sh
 #$GITHUB_WORKSPACE/N1/preset-clash-core.sh
-#sed -i '$a src-git kiddin9_openwrt_packages https://github.com/kiddin9/kwrt-packages.git' feeds.conf.default
+
+sed -i '$a src-git kiddin9_openwrt_packages https://github.com/kiddin9/kwrt-packages.git' feeds.conf.default
 echo "
 # 插件
 CONFIG_PACKAGE_luci-app-amlogic=y
