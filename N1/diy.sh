@@ -18,9 +18,9 @@ git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-nikki package/luci
 sed -i '$a src-git kiddin9_openwrt_packages https://github.com/kiddin9/kwrt-packages.git' feeds.conf.default
 echo "
 # 插件
-CONFIG_PACKAGE_luci-app-amlogic=y
+#CONFIG_PACKAGE_luci-app-amlogic=y
 #CONFIG_PACKAGE_luci-app-linkease=y
-CONFIG_PACKAGE_luci-app-nikki=y
+#CONFIG_PACKAGE_luci-app-nikki=y
 " >> .config
 
 # 修改默认IP
